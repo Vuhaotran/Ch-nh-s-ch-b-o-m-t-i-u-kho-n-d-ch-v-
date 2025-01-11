@@ -1,33 +1,60 @@
 ---
 layout: default
-title: Trang chủ
+title: Omh Bot - Trang chủ
 ---
 
-<div style="text-align: center; padding: 50px 0;">
-  <h1 style="font-size: 3rem; color: #4CAF50;">🎉 Chào mừng đến với Omh Bot! 🎉</h1>
-  <p style="font-size: 1.2rem; color: #555;">
-    Quản lý máy chủ Discord chuyên nghiệp - An toàn - Hiệu quả.  
-    Chúng tôi luôn sẵn sàng hỗ trợ bạn với các tính năng hiện đại.
+<nav style="position: sticky; top: 0; background: #4CAF50; padding: 10px; text-align: center; z-index: 1000;">
+  <a href="index.md" style="color: white; margin: 0 15px; text-decoration: none; font-size: 1.2rem;">Trang chủ</a>
+  <a href="privacy-policy.md" style="color: white; margin: 0 15px; text-decoration: none; font-size: 1.2rem;">Chính sách Bảo mật</a>
+  <a href="terms-of-service.md" style="color: white; margin: 0 15px; text-decoration: none; font-size: 1.2rem;">Điều khoản Dịch vụ</a>
+  <a href="contact.md" style="color: white; margin: 0 15px; text-decoration: none; font-size: 1.2rem;">Liên hệ</a>
+</nav>
+
+<header style="text-align: center; padding: 60px 20px; background: linear-gradient(to bottom, #4CAF50, #8BC34A); color: white; animation: fadeIn 1.5s;">
+  <h1 style="font-size: 3.5rem;">✨ Chào mừng đến với Omh Bot ✨</h1>
+  <p style="font-size: 1.3rem; margin: 20px 0;">
+    Quản lý máy chủ Discord chuyên nghiệp và an toàn!  
+    Trải nghiệm hiện đại, thân thiện và bảo mật tối đa.
   </p>
-  <a href="privacy-policy.md" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; font-size: 1.2rem; margin: 10px;">Chính sách Bảo mật</a>
-  <a href="terms-of-service.md" style="display: inline-block; padding: 10px 20px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 5px; font-size: 1.2rem; margin: 10px;">Điều khoản Dịch vụ</a>
-  <a href="contact.md" style="display: inline-block; padding: 10px 20px; background-color: #FFC107; color: white; text-decoration: none; border-radius: 5px; font-size: 1.2rem; margin: 10px;">Liên hệ</a>
-</div>
+  <a href="#features" style="padding: 15px 25px; background: #2196F3; color: white; text-decoration: none; border-radius: 5px; font-size: 1.2rem; animation: bounce 2s infinite;">Tìm hiểu thêm</a>
+</header>
 
-<div style="text-align: center; margin-top: 30px;">
-  <img src="https://via.placeholder.com/800x400" alt="Omh Bot Banner" style="max-width: 100%; border-radius: 10px;">
-</div>
+<section id="features" style="padding: 50px 20px; text-align: center; background: #f9f9f9;">
+  <h2 style="color: #4CAF50; font-size: 2.5rem;">💡 Vì sao chọn Omh Bot?</h2>
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px;">
+    <div style="flex: 1; max-width: 300px; padding: 20px; background: white; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); border-radius: 10px; transition: transform 0.3s;">
+      <h3 style="color: #4CAF50;">✅ Tính năng hiện đại</h3>
+      <p style="color: #555;">Quản lý vai trò, chống spam, chào mừng thành viên, và nhiều hơn nữa!</p>
+    </div>
+    <div style="flex: 1; max-width: 300px; padding: 20px; background: white; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); border-radius: 10px; transition: transform 0.3s;">
+      <h3 style="color: #4CAF50;">✅ Bảo mật dữ liệu</h3>
+      <p style="color: #555;">Bảo vệ thông tin cá nhân với các biện pháp mã hóa tiên tiến.</p>
+    </div>
+    <div style="flex: 1; max-width: 300px; padding: 20px; background: white; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); border-radius: 10px; transition: transform 0.3s;">
+      <h3 style="color: #4CAF50;">✅ Hỗ trợ nhanh chóng</h3>
+      <p style="color: #555;">Đội ngũ hỗ trợ sẵn sàng qua Discord và email.</p>
+    </div>
+  </div>
+</section>
 
-<div style="padding: 20px; margin-top: 30px; background: #f9f9f9; border-radius: 10px;">
-  <h2 style="color: #4CAF50;">💡 Các tính năng nổi bật:</h2>
-  <ul style="list-style: none; padding-left: 0; font-size: 1rem;">
-    <li style="margin: 10px 0;">✅ Chống spam và quảng cáo không mong muốn.</li>
-    <li style="margin: 10px 0;">✅ Quản lý vai trò và thành viên dễ dàng.</li>
-    <li style="margin: 10px 0;">✅ Tích hợp dự báo thời tiết, chào mừng thành viên.</li>
-    <li style="margin: 10px 0;">✅ Hỗ trợ cá nhân hóa cấu hình bot.</li>
-  </ul>
-</div>
+<footer style="text-align: center; padding: 20px; background: #4CAF50; color: white; margin-top: 50px;">
+  <p>&copy; 2025 Omh Bot. All rights reserved.</p>
+  <a href="https://github.com/omh-bot" style="color: white; text-decoration: none;">GitHub</a>
+</footer>
 
-<div style="text-align: center; margin-top: 30px;">
-  <h3 style="color: #555;">Sẵn sàng khám phá? <a href="terms-of-service.md" style="color: #4CAF50;">Bắt đầu ngay!</a></h3>
-</div>
+<style>
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+  }
+
+  div:hover {
+    transform: translateY(-10px);
+  }
+</style>

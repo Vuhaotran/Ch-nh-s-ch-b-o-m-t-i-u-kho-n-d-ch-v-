@@ -1,176 +1,56 @@
-/* Reset cơ bản */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-}
-
-/* Navbar */
-.navbar {
-  position: sticky;
-  top: 0;
-  background-color: #4CAF50;
-  padding: 10px 20px;
-  z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar .logo {
-  font-size: 1.5rem;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-}
-
-.nav-links li {
-  margin-left: 20px;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.3s;
-}
-
-.nav-links a:hover {
-  color: #dff0d8;
-}
-
-/* Hero Section */
-.hero {
-  text-align: center;
-  background: linear-gradient(to bottom, #4CAF50, #8BC34A);
-  color: white;
-  padding: 50px 20px;
-}
-
-.hero h1 {
-  font-size: 2.8rem;
-  margin-bottom: 15px;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-.hero .btn-primary {
-  background: #2196F3;
-  color: white;
-  text-decoration: none;
-  padding: 12px 25px;
-  border-radius: 5px;
-  font-size: 1rem;
-  transition: background 0.3s;
-}
-
-.hero .btn-primary:hover {
-  background: #1976D2;
-}
-
-/* Features Section */
-.features-section {
-  padding: 40px 20px;
-  background-color: #f9f9f9;
-  text-align: center;
-}
-
-.features-section h2 {
-  font-size: 2.2rem;
-  color: #4CAF50;
-  margin-bottom: 30px;
-}
-
+/* Cập nhật CSS cho nội dung và hiển thị đẹp hơn */
 .feature-cards {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  flex-wrap: wrap;
 }
 
 .card {
   background: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  max-width: 300px;
-  text-align: center;
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
   transform: translateY(-10px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.card h3 {
-  color: #4CAF50;
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
   margin-bottom: 10px;
+  font-size: 1.1rem;
 }
 
-.card p {
-  color: #555;
-  font-size: 1rem;
+ul li strong {
+  color: #4CAF50;
 }
 
-/* Footer */
-footer {
-  background: #4CAF50;
-  color: white;
-  padding: 20px 0;
+/* Kêu gọi hành động (CTA) */
+.cta-section {
   text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #4CAF50, #8BC34A);
+  color: white;
 }
 
-footer a {
+.btn-secondary {
+  padding: 15px 30px;
+  background: #1976D2;
   color: white;
   text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  display: inline-block;
 }
 
-footer a:hover {
-  color: #dff0d8;
-}
-
-/* Responsive */
-@media (max-width: 992px) {
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
-  .card {
-    max-width: 90%;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav-links li {
-    margin: 10px 0;
-  }
-
-  .features-section {
-    padding: 20px;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
+.btn-secondary:hover {
+  background: #135ba1;
 }

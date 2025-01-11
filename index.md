@@ -5,11 +5,11 @@ title: Omh Bot - Trang chủ
 
 <nav class="navbar">
   <div class="container">
-    <a href="index.md" class="logo">Omh Bot</a>
+    <a href="#" class="logo">Omh Bot</a>
     <ul class="nav-links">
       <li><a href="#features">Tính năng</a></li>
-      <li><a href="privacy-policy.md">Chính sách Bảo mật</a></li>
-      <li><a href="terms-of-service.md">Điều khoản Dịch vụ</a></li>
+      <li><a href="privacy-policy.md">Bảo mật</a></li>
+      <li><a href="terms-of-service.md">Dịch vụ</a></li>
       <li><a href="contact.md">Liên hệ</a></li>
     </ul>
   </div>
@@ -18,12 +18,13 @@ title: Omh Bot - Trang chủ
 <header class="hero">
   <div class="container">
     <h1>✨ Chào mừng đến với Omh Bot ✨</h1>
-    <p>Quản lý máy chủ Discord chuyên nghiệp và an toàn! Trải nghiệm hiện đại, thân thiện và bảo mật tối đa.</p>
+    <p>Quản lý máy chủ Discord chuyên nghiệp và an toàn!  
+       Trải nghiệm hiện đại, thân thiện và bảo mật tối đa.</p>
     <a href="#features" class="btn-primary">Tìm hiểu thêm</a>
   </div>
 </header>
 
-<section id="features">
+<section id="features" class="features-section">
   <div class="container">
     <h2>💡 Vì sao chọn Omh Bot?</h2>
     <div class="feature-cards">
@@ -44,6 +45,8 @@ title: Omh Bot - Trang chủ
 </section>
 
 <footer>
-  <p>&copy; 2025 Omh Bot. All rights reserved.</p>
-  <a href="https://github.com/omh-bot">GitHub</a>
+  <div class="container">
+    <p>&copy; 2025 Omh Bot. All rights reserved.</p>
+    <a href="https://github.com/omh-bot">GitHub</a>
+  </div>
 </footer>
